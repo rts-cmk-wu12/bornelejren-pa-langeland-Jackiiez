@@ -3,7 +3,10 @@ import { createRoot } from 'react-dom/client'
 import { GloabelContext } from "./gloabelContext";
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './pages/App.jsx'
-// import PropertyList from './pages/PropertyList.jsx'
+ import Sponsor from './pages/Sponsor.jsx'
+ import Om from './pages/Tak.jsx'
+ import Tak from './pages/Om.jsx'
+ import './App.scss';
 // import PropertyDetails from './pages/propertydetails.jsx'
 // import Favorites from './pages/Favorites.jsx'
 // import Agents from './pages/Agents.jsx'
@@ -35,18 +38,18 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />
    },
-  // {
-  //   path: "/PropertyList",
-  //   element: <PropertyList />
-  // },
-  // {
-  //   path: "/property/:id",
-  //   element: <PropertyDetails />
-  // },
-  // {
-  //   path: "/Favorites",
-  //   element: <Favorites />
-  // },
+{
+   path: "/Om",
+     element: <Om />
+   },
+   {
+     path: "/Sponsor",
+    element: <Sponsor />
+   },
+   {
+     path: "/Tak",
+     element: <Tak />
+  }
   // {
   //   path: "/Agents",
   //   element: <Agents />
