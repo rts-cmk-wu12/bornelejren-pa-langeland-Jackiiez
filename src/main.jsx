@@ -4,8 +4,8 @@ import { GloabelContext } from "./gloabelContext";
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './pages/App.jsx'
  import Sponsor from './pages/Sponsor.jsx'
- import Om from './pages/Tak.jsx'
- import Tak from './pages/Om.jsx'
+ import Tak from './pages/Tak.jsx'
+ import Om from './pages/Om.jsx'
  import './App.scss';
 // import PropertyDetails from './pages/propertydetails.jsx'
 // import Favorites from './pages/Favorites.jsx'
